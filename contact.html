@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETCO</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body>
+  <!-- القائمة وشعار الموقع -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <div class="logo">PETCO</div>
+        <div class="icons">
+            <a href="sala.html" title="Cart Icon"><img src="cart.png" alt="Cart Icon" style="width: 30px;"></a>
+            <link rel="stylesheet" href="contact.css">
+        </div>
+    </nav>
+<!--معلومات الصفحه-->
+<h1>Contact</h1>
+    <h3>If you need a custom piece, send us a message and we will reach you as soon as possible.<br>
+        Thank you for choosing PETCO.</h3>
+     <!-- قسم إدخال البيانات -->
+     <div class="contact-form">
+        <h2>Contact Us</h2>
+        <!-- حقل رقم الهاتف -->
+        <input type="text" id="phone" placeholder="Enter your phone number" maxlength="11">
+        <!-- حقل الرسالة -->
+        <textarea id="message" rows="5" placeholder="Type your message here"></textarea>
+        <!-- زر الإرسال -->
+        <button id="sendButton" onclick="sendMessage()">Send</button>
+        <!-- عرض رسالة نجاح أو خطأ -->
+        <p id="feedback" class="feedback"></p>
+    </div>
+
+    <!-- ملف JavaScript -->
+    <script src="contact.js"></script>
+
+
+
+</body>
+</html>

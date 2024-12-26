@@ -1,0 +1,48 @@
+/* إعدادات الصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* تنسيق قسم "About Us" */
+.about-us {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* تنسيق العنوان الفرعي */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #16a085;
+    margin-bottom: 20px;
+}
+
+/* تنسيق فقرات النص */
+h4 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+    margin-left: 170px;
+
+}
+
+/* تنسيق فقرات النص لتكون أكثر وضوحًا */
+h4 br {
+    line-height: 10; /* زيادة المسافة بين الأسطر داخل الفقرة */
+}
