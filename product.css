@@ -1,0 +1,86 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.category-btn {
+    padding: 10px 20px;
+    background-color: #486483;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background-color: #65a0b3;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product .image-gallery {
+    position: relative;
+}
+
+.product .image-gallery img {
+    width: 100%;
+    height: auto;
+    display: none; /* إخفاء جميع الصور */
+}
+
+.product .image-gallery img.active {
+    display: block; /* عرض الصورة النشطة فقط */
+}
+
+.product .gallery-buttons {
+    margin-top: 10px;
+}
+
+.product .gallery-buttons button {
+    padding: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product .gallery-buttons button:hover {
+    background-color: #218838;
+}
+
+.product .details {
+    margin: 10px 0;
+}
+
+.product .price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETCO</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <!-- القائمة وشعار الموقع -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <div class="logo">PETCO</div>
+        <div class="icons">
+            <a href="sala.html" title="Cart Icon"><img src="cart.png" alt="Cart Icon" style="width: 30px;"></a>
+        </div>
+    </nav>
+<!--معلومات الصفحه-->
+<div class="menu">
+    <button class="category-btn" onclick="showProducts(1)">Clothes Rack</button>
+    <button class="category-btn" onclick="showProducts(2)">Comodino</button>
+    <button class="category-btn" onclick="showProducts(3)">Mirror</button>
+    <button class="category-btn" onclick="showProducts(4)">Bed</button>
+    <button class="category-btn" onclick="showProducts(5)">Computer Desk</button>
+    <button class="category-btn" onclick="showProducts(6)">Floor Table</button>
+    <button class="category-btn" onclick="showProducts(7)">Chairs</button>
+    <button class="category-btn" onclick="showProducts(8)">Table Food</button>
+    <button class="category-btn" onclick="showProducts(9)">Sofa</button>
+</div>
+
+<div id="products-container" class="products-container">
+    <!-- المنتجات سيتم عرضها هنا -->
+</div>
+
+<script src="product.js"></script>
+
+
+
+</body>
+</html>
